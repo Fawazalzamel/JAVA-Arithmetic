@@ -1,0 +1,52 @@
+
+class Main {
+  public static void main(String[] args) {
+
+    String firstName = "Fawaz";
+    String lastName = "Alzamel";
+    double age = 23;
+    double amount1= 500;
+
+    System.out.println(firstName);
+    System.out.println(lastName);
+    System.out.println(age);
+    System.out.println(amount1);
+
+    boolean isMarried = false;
+
+    double amount2 = 20;
+    String deposit = "Deposit";
+    String withdraw = "Withdraw";
+
+    System.out.println("The amount is " + amount2 );
+    System.out.println("Would you like to Deposit or Withdraw the amount?");
+
+
+    int amount3 =5;
+    int amount4 = 5;
+    System.out.println(amount3 + " plus " + amount4 + " is " + (amount3 + amount4));;
+
+    String fullName = "John doe";
+    String firstName1="John";
+    String lastName2="Doe";
+
+    System.out.println("My name is " + firstName + " and my last name length is " + lastName2.length());
+
+
+    boolean isStartWithD = lastName2.startsWith("Doe");
+   System.out.println(" Does the last name start with D? " + isStartWithD);
+  }
+
+  //Task Arithmetics 
+
+  double amountKWD=86.0;
+  double amountUS = amountKWD * 3.25;
+  double amountUS2= amountUS/3.25;
+  double amountEuro = amountKWD*2.97;
+  
+  System.out.println(amountKWD  + " KWD is "   + amountUS    + " USD");
+  System.out.println(amountUS   + " USD is "   + amountUS2   + " kwd");
+  System.out.println(amountEuro + " Euro is "   + amountEuro + " KWD");
+}
+
+
